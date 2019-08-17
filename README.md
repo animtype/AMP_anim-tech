@@ -3,11 +3,11 @@ AMP anim.tech is a lightweight PHP based web page made of $f3 framework and AMP 
 
 There is no "normal" desktop version, but instead, an AMP page works the same on all sorts of screens from wide screens down to mobile-portrait screens.
 
-#Technology
+# Technology
 PHP with Fat-free-framework for creating templates for pages, routing to proper URL names and rerouting to default names. 
 AMP framework for images, slideshows, sharers and notifications 
 
-#Validation
+# Validation
 anim.tech web page is 
 1. fully validated AMP page.
 2. mobile friendly page.
