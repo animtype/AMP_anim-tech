@@ -12,7 +12,10 @@
 <meta property="og:url"    content="<?php echo Base::instance()->get("url"); ?>"> 
 <meta property="og:title"  content="<?php echo Base::instance()->get("title"); ?>">
 <meta property="og:image"  content="<?php echo Base::instance()->get("base"); ?>/ui/images/<?php echo Base::instance()->get("share"); ?>"> 
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:description" content="<?php echo Base::instance()->get("description"); ?>">
+<meta name="author" content="Dr.Peter">
 <?php echo View::instance()->render('ui/html/favicon.php'); ?>
 <?php echo View::instance()->render('ui/css/css-min.php'); ?>
 </head>

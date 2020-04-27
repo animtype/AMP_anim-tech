@@ -2,14 +2,25 @@
     <?php include 'ui/html/quote.php'; ?>
     <?php
 
-
-    /* spring */ 
-    $timeMonth = "Jan-April";
-    $timeYear = "2019";
+  /* spring */ 
+    $timeMonth = "Feb-May";
+    $timeYear = "2020";
     $timeColor = "blue";
     $postAvatar = "drpeter.jpg";
+    $timeTitle = "Give Corona no chance! Stay home!";
+    $timeBody = "The best thing you can do to fight coronavirus? #StayHome, and give our Health Service a chance to fight for each patient.";
+    $timeImage = "timeline-covid.jpg";
+    $timeWeb = "";
+    $timeTags = "#besafe #stayhome #covid19";
+    include 'ui/html/timeline.php';
+
+    /* spring */ 
+    $timeMonth = "Jan-Dec";
+    $timeYear = "2019";
+    $timeColor = "white";
+    $postAvatar = "avatar.jpg";
     $timeTitle = "Anim.tech various work";
-    $timeBody = "Last three months have been exhausted. Different projects based on different technologies solutions, and switching between them daily, have produced some exciting results, lol.";
+    $timeBody = "Past months have been exhausted. Different projects based on different technologies solutions, and switching between them daily, have produced some exciting results, lol. ";
     $timeImage = "timeline-globe.jpg";
     $timeWeb = "";
     $timeTags = "#anim.tech #dtp #development";
@@ -31,7 +42,7 @@
     $timeMonth = "March-August";
     $timeYear = "2018";
     $timeColor = "white";
-    $postAvatar = "drpeter.jpg";
+    $postAvatar = "avatar.jpg";
     $timeTitle = "Anim.tech various work";
     $timeBody = "It has been a busy spring and the start of the summer. So many different tasks that I had to postpone the further development of the cFolio App. In August I am planning to finish this app and start with the first batch of beta testers. May the Force be with you.";
     $timeImage = "timeline-globe.jpg";
