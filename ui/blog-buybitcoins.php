@@ -1,39 +1,4 @@
-<!-- article seo -->
-<script type="application/ld+json">
-{
- "@context": "http://schema.org",
- "@type": "NewsArticle",
- "mainEntityOfPage": {
-	"@type": "WebPage",
-	"@id": "<?php echo Base::instance()->get("base"); ?>/blog/buy-bitcoins"
- },
- "url": "<?php echo Base::instance()->get("base"); ?>/blog/buy-bitcoins",
- "headline": "How to buy Bitcoins with a credit card | Master Card or Visa",
- "image": {
-	"@type": "ImageObject",
-	"url": "<?php echo Base::instance()->get("base"); ?>/ui/images/<?php echo Base::instance()->get("share"); ?>",
-	"height": "1200px",
-	"width": "630px"
- },
- "datePublished": "2019-04-12 12:00:00",
- "dateModified": "2017-04-12 12:00:00",
- "author": {
-	"@type": "Person",
-	"name": "Dr. Pater, anim.tech"
- },
-  "publisher": {
-	"@type": "Organization",
-	"name": "Anim.tech, Creative side up",
-	"logo": {
-	 "@type": "ImageObject",
-	 "url": "<?php echo Base::instance()->get("base"); ?>/ui/images/animtech280x280.jpg",
-	 "width": "280px",
-	 "height": "280px"
-	}
- },
- "description": "It is really hard to convert hard currency to Bitcoins quickly. Or is it? Well, it turns out, you can dramatically speed up transaction time by buying Bitcoins with Credit Cards. Of course, I am not talking about large amounts of money, in that case a bank transfer and waiting for a couple of days for the transaction is a necessity."
-}
-</script>
+<?php echo View::instance()->render('ui/blog-seo.php'); ?>
 
 
 <h1>How to buy Bitcoins with a Credit Card [MasterCard or Visa]</h1>

@@ -65,6 +65,21 @@ class WebPage {
         $f3->set('type','article');
         $f3->set('share','share-buybitcoins.jpg');        
         $f3->set('content','ui/blog-buybitcoins.php');
+        $f3->set('blogPath','buy-bitcoins');
+        $f3->set('date','2019-04-12 12:00:00');
+        $this->renderLayout(); 
+        
+    }
+
+    function blogBTChalving($f3) {
+        
+        $f3->set('title','BITCOIN halving countdown, 12th of May');
+        $f3->set('description','The Bitcoin halving decreases the number of new bitcoins generated per block. In most markets, lower BTC supply with steady demand usually leads to higher prices. Should we experience something similar to this year halving? What do you think?');
+        $f3->set('type','article');
+        $f3->set('share','share-btchalving.jpg');        
+        $f3->set('content','ui/blog-btchalving.php');
+        $f3->set('blogPath','btc-halving');
+        $f3->set('date','2020-02-02 12:00:00');
         $this->renderLayout(); 
         
     }
@@ -128,6 +143,7 @@ $f3->route('GET /contact','WebPage->contactPage',$cashTime);
 $f3->route('GET /legal','WebPage->legalPage',$cashTime);
 $f3->route('GET /blog','WebPage->blogPage',$cashTime);
 $f3->route('GET /blog/buy-bitcoins','WebPage->blogBuyBitcoins',$cashTime);
+$f3->route('GET /blog/btc-halving','WebPage->blogBTChalving',$cashTime);
 $f3->route('GET /si/@count','WebPage->siPage',0);
 $f3->route('GET /geoip','WebPage->geoipPage',0);
 

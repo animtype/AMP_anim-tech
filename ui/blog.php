@@ -1,6 +1,15 @@
 <h4>Editors' pick</h4>
 <?php
 
+    /* bitcoin halving */ 
+    $postLink = Base::instance()->get("base") . "/blog/btc-halving";
+    $postTitle = "BITCOIN halving countdown, 12th of May";
+    $postAvatar = Base::instance()->get("base") . "/ui/images/avatar.jpg";
+    $postAuthor = "Dr.Peter";
+    $postTags = array("Bitcoin","halving","BTC","inflation","Cryptocurrency");
+    $postDescription = "The Bitcoin halving decreases the number of new bitcoins generated per block. In most markets, lower BTC supply with steady demand usually leads to higher prices. Should we experience something similar to this year halving? What do you think?";
+    include 'ui/html/post.php'; 
+
     /* buy bitcoins */ 
     $postLink = Base::instance()->get("base") . "/blog/buy-bitcoins";
     $postTitle = "How to buy Bitcoins with a credit card [Visa, MasterCard, Diners]";
