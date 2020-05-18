@@ -3,7 +3,7 @@
 
     /* bitcoin halving */ 
     $postLink = Base::instance()->get("base") . "/blog/btc-halving";
-    $postTitle = "BITCOIN halving countdown, 12th of May";
+    $postTitle = "BITCOIN halving countdown, 11th of May";
     $postAvatar = Base::instance()->get("base") . "/ui/images/avatar.jpg";
     $postAuthor = "Dr.Peter";
     $postTags = array("Bitcoin","halving","BTC","inflation","Cryptocurrency");
