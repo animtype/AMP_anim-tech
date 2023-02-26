@@ -14,3 +14,6 @@ anim.tech web page is
 1. fully validated AMP page.
 2. mobile friendly page.
 3. SEO optimised web page
+4. Story
+
+
